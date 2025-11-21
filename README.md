@@ -1,0 +1,3 @@
+This project implements a Q-learning agent inside a 3D Gridworld environment where movement is uncertain due to slippage, and several cells are blocked by obstacles.
+The agent begins with no prior knowledge of the environment. Through repeated interaction taking actions, receiving rewards or penalties, and updating its Q values it gradually learns which choices lead to progress and which lead to danger.
+Over time, this trial-and-error process enables the agent to discover an optimal navigation strategy that consistently reaches the goal while avoiding pits, obstacles, and unnecessary movements.
